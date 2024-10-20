@@ -7,9 +7,13 @@ namespace LigaProEcuador.Models
     {
         [Key]
         public int IdEstadio { get; set; }
+<<<<<<< HEAD
         [MaxLength(100)]
         public string Direccion {  get; set; }
         [MaxLength(100)]
+=======
+        public string Direccion {  get; set; }
+>>>>>>> d9ba2bdd6ff03c5660216b3f073bb8554dadf245
         public string CiudadEstadio { get; set; }
         public int Capacidad {  get; set; }
         public Equipo Equipo { get; set; }
