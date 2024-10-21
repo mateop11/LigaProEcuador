@@ -2,7 +2,56 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #000000, #FFDD00); 
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .logo {
+            width: 200px;
+            height: auto;
+        }
+
+        .introduction {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #FFDD00;
+            text-decoration: none;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_DIgszDCZGMUEjMHY0iuZ2wl8Syu7eyArEbFos2UFB-gBch9ereGw4XzR-uYEyFio_956c1_aN5dtCwhYN9PoxOzIfXPQdbJ0cxuRF_pmU6Qnv_3Lv4n6OxDXm_VpSwsIUffpEKy0eQaRzZkj9VxFHbV9EYRD1mNfe3s7kH28Rp7FsOgssAbEBzHg/s512/LigaPro%20Bet.png" alt="LigaPro Logo">
+        <h1 class="display-4">Bienvenidos a la LigaPro de Ecuador</h1>
+        <p class="introduction">
+            La LigaPro es el principal campeonato de fútbol profesional de Ecuador, organizado por la Liga Profesional de Fútbol del Ecuador.
+            Cada temporada, los mejores equipos del país compiten para coronarse como campeones de este prestigioso torneo.
+        </p>
+        <p>Conoce más sobre la LigaPro y sigue a tus equipos favoritos mientras luchan por la gloria.</p>
+        
+    </div>
+</body>
+</html>
